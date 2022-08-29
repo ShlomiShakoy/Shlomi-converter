@@ -15,7 +15,7 @@ def convert():
         select_to = request.form.get('to')
         amount=request.form.get('amount')
         from_to_str=f"From {select_from} to {select_to}"
-        with open("C:\\Users\\IMOE001\\Dropbox\\PC\\Desktop\\Currency changer\\currencies.txt") as f:
+        with open("C:\\Users\\IMOE001\\Dropbox\\PC\\Desktop\\Currency converter\\currencies.txt") as f:
             while True:
                 curr_cursor=f.tell()
                 line=f.readline()
